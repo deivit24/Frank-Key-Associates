@@ -1,0 +1,66 @@
+body{
+  background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(https://static1.squarespace.com/static/55788acee4b0c48a5c2c0d75/559e81a3e4b03dbf291e73ed/559e81bae4b03dbf291e744b/1436451260370/NIGHT+EXTERIOR+-+Copy.jpg);
+  background-size: cover ;
+  background-position: center;
+  color: white;
+
+
+}
+html{
+  height: 100%;
+}
+
+
+
+h3{
+  font-family: 'futura-pt';
+}
+h1{
+  font-weight: 500;
+  font-size: 4em;
+
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.container{
+  margin-top: 250px;
+}
+nav .nav-link{
+  color: white;
+}
+nav .nav-link:hover{
+  background: white; opacity: .8;
+  color: black;
+}
+
+.btn-secondary{
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 200px;
+  text-align: center;
+
+  margin-top: 25px;
+}
+.btn-secondary:hover{
+  background-color: white;
+  color: black;
+
+}
+
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+
+  h1{
+    font-weight: 400;
+    font-size: 3em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+h3{
+  font-size: 15px;
+}
+}
